@@ -1,0 +1,11 @@
+parameters:
+    # Services classes
+    geolocation.services.geolocation: GeolocationBundle\Service\GoogleGeolocation
+    geolocation.services.interpreter: GeolocationBundle\Service\Interpreter
+    # Main geolocation service
+    geolocation.service_slug: google
+    geolocation.service_url: https://maps.googleapis.com/maps/api/geocode/xml
+    geolocation.service_parameters:
+        key: AIzaSyBAFvirnjTIJBte2UzG9s57dRVc8RUkt0s
+        language: es-ES
+        region: ES

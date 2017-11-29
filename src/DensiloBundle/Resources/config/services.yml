@@ -1,0 +1,4 @@
+services:
+#    groupalia_densilo.example:
+#        class: Groupalia\DensiloBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

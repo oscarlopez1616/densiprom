@@ -1,0 +1,183 @@
+parameters:
+    datafixtures.letsbonus.citiesmap:
+        google:
+            0:
+                external_service_area: Santiago de Compostela
+                company_area: Santiago de Compostela
+            1:
+                external_service_area: Vigo
+                company_area: Vigo
+            2:
+                external_service_area: La Coruña
+                company_area: A Coruña
+            3:
+                external_service_area: A Coruña
+                company_area: A Coruña
+            4:
+                external_service_area: Álava
+                company_area: Vitoria
+            5:
+                external_service_area: Albacete
+                company_area: Albacete
+            6:
+                external_service_area: Alicante
+                company_area: Alicante
+            7:
+                external_service_area: Alacant
+                company_area: Alicante
+            8:
+                external_service_area: Almería
+                company_area: Almería
+            9:
+                external_service_area: Asturias
+                company_area: Gijón
+            10:
+                external_service_area: Ávila
+                company_area: Ávila
+            11:
+                external_service_area: Badajoz
+                company_area: Badajoz
+            12:
+                external_service_area: Islas Baleares
+                company_area: Mallorca
+            13:
+                external_service_area: Illes Balears
+                company_area: Mallorca
+            14:
+                external_service_area: Barcelona
+                company_area: Barcelona
+            15:
+                external_service_area: Burgos
+                company_area: Burgos
+            16:
+                external_service_area: Cáceres
+                company_area: Cáceres
+            17:
+                external_service_area: Cádiz
+                company_area:
+            18:
+                external_service_area: Cantabria
+                company_area: Santander
+            19:
+                external_service_area: Castellón
+                company_area: Castellón
+            20:
+                external_service_area: Ciudad Real
+                company_area: Ciudad Real
+            21:
+                external_service_area: Córdoba
+                company_area: Córdoba
+            22:
+                external_service_area: Cuenca
+                company_area: Cuenca
+            23:
+                external_service_area: Gerona
+                company_area: Girona
+            24:
+                external_service_area: Girona
+                company_area: Girona
+            25:
+                external_service_area: Granada
+                company_area: Granada
+            26:
+                external_service_area: Guadalajara
+                company_area: Guadalajara
+            27:
+                external_service_area: Guipúzcoa
+                company_area: San Sebastián
+            28:
+                external_service_area: Gipuzkoa
+                company_area: San Sebastián
+            29:
+                external_service_area: Huelva
+                company_area: Huelva
+            30:
+                external_service_area: Huesca
+                company_area: Huesca
+            31:
+                external_service_area: Jaén
+                company_area:
+            32:
+                external_service_area: La Rioja
+                company_area: Logroño
+            33:
+                external_service_area: Las Palmas
+                company_area: Las Palmas de GC
+            34:
+                external_service_area: León
+                company_area: León
+            35:
+                external_service_area: Lérida
+                company_area: Lleida
+            36:
+                external_service_area: Lleida
+                company_area: Lleida
+            37:
+                external_service_area: Lugo
+                company_area: Lugo
+            38:
+                external_service_area: Madrid
+                company_area: Madrid
+            39:
+                external_service_area: Málaga
+                company_area: Málaga
+            40:
+                external_service_area: Murcia
+                company_area: Murcia
+            41:
+                external_service_area: Navarra
+                company_area: Pamplona
+            42:
+                external_service_area: Orense
+                company_area: Orense
+            43:
+                external_service_area: Ourense
+                company_area: Orense
+            44:
+                external_service_area: Palencia
+                company_area: Palencia
+            45:
+                external_service_area: Pontevedra
+                company_area: Pontevedra
+            46:
+                external_service_area: Salamanca
+                company_area: Salamanca
+            47:
+                external_service_area: Segovia
+                company_area: Segovia
+            48:
+                external_service_area: Sevilla
+                company_area: Sevilla
+            49:
+                external_service_area: Soria
+                company_area:
+            50:
+                external_service_area: Tarragona
+                company_area: Tarragona
+            51:
+                external_service_area: Santa Cruz de Tenerife
+                company_area: Santa Cruz de Tenerife
+            52:
+                external_service_area: Teruel
+                company_area: Teruel
+            53:
+                external_service_area: Toledo
+                company_area: Toledo
+            54:
+                external_service_area: Valencia
+                company_area: Valencia
+            55:
+                external_service_area: Valladolid
+                company_area: Valladolid
+            56:
+                external_service_area: Vizcaya
+                company_area: Bilbao
+            57:
+                external_service_area: Bizkaia
+                company_area: Bilbao
+            58:
+                external_service_area: Zamora
+                company_area: Zamora
+            59:
+                external_service_area: Zaragoza
+                company_area: Zaragoza

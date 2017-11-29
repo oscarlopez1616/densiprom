@@ -1,0 +1,7 @@
+services:
+    geolocation.geolocation:
+        class: %geolocation.services.geolocation%
+        arguments: [ %geolocation.service_url%, %geolocation.service_parameters% ]
+    geolocation.interpreter:
+        class: %geolocation.services.interpreter%
+        arguments: [ "@doctrine.orm.entity_manager", %company_slug%, %geolocation.service_slug% ]

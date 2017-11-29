@@ -1,0 +1,57 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Descripcion del modulo mas descripcion del apartado del modulo">
+        <meta name="keywords" content="titulo,nombreModulo,nombreApartado">
+        <meta name="author" content="Tickon SL">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Groupalia Analizador Densidad</title>
+
+
+        <!-- Load jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+
+        <!-- Load jQueryUi -->
+        <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+
+
+    </head>
+
+    <body>
+        <p>
+            La densidad total de las keywords que se muestran es :{{totalDensidadDocumento}}
+        </p>
+        <table>
+            {% for item in palabras1  %}
+                <tr>
+                    <td>
+                        {{item['palabra']}}
+                    </td>
+                    <td>
+                        Densidad:  <b>{{item['valor_densidad']}}%</b>
+                    </td>
+                    <td>
+                         Rep:  <b>{{item['num_apariciones']}}</b>
+                    </td>
+                    <td>
+                        Prominencia:  <b>{{item['valor_prominencia']}}</b>
+                    </td>
+                    <td>
+                        Score:  <b>{{item['score']}}</b>
+                    </td>
+                    <td>
+                        Posiciones Prominentes:  <b>{{item['posiciones_prominentes']}}</b>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+
+</html>
+
+

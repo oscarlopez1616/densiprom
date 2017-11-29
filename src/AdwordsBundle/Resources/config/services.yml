@@ -1,0 +1,3 @@
+services:
+    adwords.redirector:
+        class: AdwordsBundle\Service\LocPhysicalAdwordsRedirectorService

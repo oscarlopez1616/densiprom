@@ -1,0 +1,10 @@
+parameters:
+    datafixtures.letsbonus.users:
+        0:
+            name: oscarlopez1616
+            email: oscar.lopez@groupalia.com
+            password: 130719831616
+        1:
+            name: carlosas
+            email: carlos.alandete@letsbonus.com
+            password: asdfqwer

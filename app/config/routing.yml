@@ -1,0 +1,34 @@
+pixel_tracking:
+    resource: "@PixelTrackingBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+feed_groupalia:
+    resource: "@FeedGroupaliaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+densilo:
+    resource: "@DensiloBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+analytics:
+    resource: "@AnalyticsBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+adwords:
+    resource: "@AdwordsBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+geolocation:
+    resource: "@GeolocationBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+

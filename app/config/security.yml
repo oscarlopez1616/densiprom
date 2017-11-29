@@ -1,0 +1,18 @@
+security:
+    encoders:
+        AppBundle\Entity\User:
+            algorithm: bcrypt
+    providers:
+        db_provider:
+            entity:
+                class: AppBundle\Entity\User
+                property: username
+
+    firewalls:
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        main:
+            pattern:    ^/api
+            http_basic: ~
+            provider: db_provider

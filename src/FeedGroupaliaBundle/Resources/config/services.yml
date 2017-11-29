@@ -1,0 +1,4 @@
+services:
+#    feed_groupalia.example:
+#        class: FeedGroupaliaBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
